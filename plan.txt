@@ -1,0 +1,19 @@
+push-swap/
+│
+├── cmd/
+│   ├── pushswap/
+│   │   └── main.go       # Entry point for the push-swap program
+│   ├── checker/
+│   │   └── main.go       # Entry point for the checker program
+│
+├── internal/
+│   ├── stack/
+│   │   ├── stack.go      # Stack implementation and related logic
+│   │   └── stack_test.go # Unit tests for stack operations
+│   ├── instructions/
+│   │   ├── instructions.go  # Push-swap instruction logic
+│   │   └── instructions_test.go  # Tests for instruction functions
+│
+├── go.mod                 # Go module file
+├── go.sum                 # Go dependency file
+└── README.md              # Documentation
